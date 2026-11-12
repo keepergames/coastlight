@@ -1,0 +1,72 @@
+# --- Release signing material: NEVER commit -------------------------------
+# The keystore lives outside git and reaches CI only through GitHub Secrets.
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+**/*.keystore.base64.txt
+*_base64.txt
+*keystore-base64.txt
+**/key.properties
+**/local.properties
+.env
+.env.*
+google-services.json
+service-account*.json
+
+# --- Store kit (screenshots, video, listing) is kept locally ----------------
+/store/
+
+# --- Platforms this game does not ship (Android only) ------------------------
+/ios/
+/windows/
+/web/
+
+# --- Tools and editors -------------------------------------------------------
+.claude/
+.cursor/
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+*.code-workspace
+*.lnk
+__pycache__/
+*.pyc
+*.hprof
+*.log
+*.swp
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# --- Flutter / Dart ----------------------------------------------------------
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+**/ephemeral/
+app.*.symbols
+app.*.map.json
+
+# --- Android build output ----------------------------------------------------
+**/android/.gradle/
+**/android/captures/
+**/android/app/.cxx/
+/android/app/debug
+/android/app/profile
+/android/app/release
+**/android/gradlew
+**/android/gradlew.bat
+**/android/gradle/wrapper/gradle-wrapper.jar
