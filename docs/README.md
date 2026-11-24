@@ -34,5 +34,6 @@
 - [DESIGN_LANGUAGE.md](DESIGN_LANGUAGE.md) — palette, type, components, motion, screens.
 - [COMPLIANCE.md](COMPLIANCE.md) — Play pre-submission audit (14/14 NO).
 - [PRIVACY_POLICY.md](PRIVACY_POLICY.md) — the policy to publish at the publisher's /privacy-policy/ page.
+- [TERMS_OF_SERVICE.md](TERMS_OF_SERVICE.md) — the terms to publish at the publisher's /terms-of-service/ page (Play Console trader-status form).
 - [RELEASE.md](RELEASE.md) — signed builds through GitHub Actions.
 - [archive-mvp/](archive-mvp) — the original MVP phase plan, kept for history.
